@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug with Gradle Classpath",
+      "request": "launch",
+      "mainClass": "org.quffik.Main",
+      "projectName": "TGbooks",
+      "classPaths": [ "build/classes/java/main", "build/resources/main" ]
+    }
+  ]
+}
